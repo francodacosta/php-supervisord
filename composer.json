@@ -1,0 +1,29 @@
+{
+    "name": "php-supervisord",
+    "type": "library",
+    "version": "0.0.1",
+    "description": "SUpervisord configuration generator",
+    "keywords": ["supervisord", "API"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nuno Costa",
+            "email": "nuno@francodacosta.com",
+            "homepage": "http://www.francodacosta.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+
+    "require-dev": {
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Francodacosta": "src/"
+        }
+    }
+
+}
