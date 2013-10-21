@@ -1,5 +1,5 @@
 {
-    "name": "php-supervisord",
+    "name": "Francodacosta/Supervisord",
     "type": "library",
     "version": "0.0.1",
     "description": "SUpervisord configuration generator",
