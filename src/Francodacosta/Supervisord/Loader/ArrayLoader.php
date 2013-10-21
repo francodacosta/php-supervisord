@@ -16,7 +16,9 @@ class ArrayLoader implements LoaderInterface
     public function __construct($source = null, $configuration = null)
     {
         $this->setSource($source);
-        $this->setConfiguration($configuration);
+        if (null !== $configuration) {
+            $this->setConfiguration($configuration);
+        }
     }
 
     /**
@@ -51,7 +53,7 @@ class ArrayLoader implements LoaderInterface
         return $this;
     }
 
-    private function processGenericEntry(ConfigurationItemInterface $obj, $data)
+    private function processGenericEntry(ConfigurationItemInterface $obj, array $data)
     {
         foreach ($data as $key => $value) {
             $obj->set($key, $value);
