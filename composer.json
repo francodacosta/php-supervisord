@@ -2,7 +2,7 @@
     "name": "francodacosta/supervisord",
     "type": "library",
     "version": "0.0.1",
-    "description": "SUpervisord configuration generator",
+    "description": "Supervisord configuration generator",
     "keywords": ["supervisord", "API"],
     "homepage": "",
     "license": "MIT",
