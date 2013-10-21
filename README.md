@@ -12,7 +12,7 @@ use Francodacosta\Supervisord\Loader\ArrayLoader;
 use Francodacosta\Supervisord\Configuration;
 use Francodacosta\Supervisord\Processors\CommandConfigurationProcessor;
 
-// setup supervisord config object, with a processor for command sextions
+// setup supervisord config object, with a processor for command entries
 $configuration = new Configuration;
 $configuration->registerProcessor(new CommandConfigurationProcessor);
 
