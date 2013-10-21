@@ -16,6 +16,7 @@ class ArrayLoader implements LoaderInterface
     public function __construct($source = null, $configuration = null)
     {
         $this->setSource($source);
+        $this->setConfiguration($configuration);
     }
 
     /**
